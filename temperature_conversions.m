@@ -6,3 +6,8 @@ fprintf('Absolute zero is 0K, which is %g%sC.\n', kelvin_to_celsius(0), deg)
 fprintf('Absolute zero is 0K, which is %g%sC.\n', kelvin_to_celsius(0), deg)
 
 end
+% Plot Fahrenheit vs Celsius
+degC = linspace(0,100,101);
+plot(degC, celsius_to_fahrenheit(degC))
+xlabel('Celsius')
+ylabel('Fahrenheit')
