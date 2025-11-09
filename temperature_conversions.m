@@ -1,5 +1,8 @@
-function fahrenheit = celsius_to_fahrenheit(celsius)
-    %CELSIUS_TO_FAHRENHEIT   Convert Celsius to Fahrenheit 
+%TEMPERATURE_CONVERSIONS
+% Display graph of temperature conversions between C, F, K, and N.
+% Check temperature conversions between Kelvin, Fahrenheit, Celsius and
+% Newton
+ 
 
     fahrenheit = celsius*(9/5) + 32;
 fprintf('Absolute zero is 0K, which is %g%sC.\n', kelvin_to_celsius(0), deg)
